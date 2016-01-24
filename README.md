@@ -1,3 +1,3 @@
 # AMREF
-Android App for AMREF DEMO
+Files that make up the AMREF HELP DEMO Android application
 
