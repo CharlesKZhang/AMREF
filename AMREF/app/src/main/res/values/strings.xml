@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AMREF HELP DEMO</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_start_screen">StartScreen</string>
+    <string name="help_demo">HELP Demo</string>
+    <string name="about_help">About HELP</string>
+    <string name="help_feat">HELP Features</string>
+    <string name="title_activity_topic"><b>Topic</b></string>
+    <string name="topic1">Topic 1: Family Planning</string>
+    <string name="topic2">Topic 2: Ebola</string>
+    <string name="topic3">Topic 3: Danger Signs in Pregnancy</string>
+    <string name="topic4">Topic 4: Danger Signs in Newborn</string>
+    <string name="topic5">Topic 5: Maternal and Child Nutrition</string>
+    <string name="topic6">Topic 6: Common Diseases in Community</string>
+    <string name="topic7">Topic 7: Basic Life Saving Skills</string>
+    <string name="topic8">Topic 8: Sexual and Gender Based Violence</string>
+    <string name="topic9">Topic 9: Kenya Essential Package for Health</string>
+    <string name="search">Search Demo</string>
+    <string name="title_activity_demo">Demo</string>
+    <string name="txt_msg"></string>
+    <string name="next">Next</string>
+    <string name="title_activity_quiz">Quiz</string>
+    <string name="audio">Simulate Call</string>
+    <string name="record">Record</string>
+    <string name="answer1">1</string>
+    <string name="answer2">2</string>
+    <string name="answer3">3</string>
+    <string name="answer4">4</string>
+    <string name="answer5">5</string>
+    <string name="index">0</string>
+    <string name="stop">Stop</string>
+    <string name="pause">Pause</string>
+    <string name="header">Topic 1: Family Planning</string>
+    <string name="title_activity_about_help">About HELP</string>
+    <string name="partners">Partners</string>
+    <string name="pedagogy">Pedagogy</string>
+    <string name="news">In the News</string>
+    <string name="video">Background Video</string>
+    <string name="website">HELP Website</string>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="orange" type="color">#FFFFBB33</color>
+    <color name="grey">#808080</color>
+    <color name="lgrey">#d3d3d3</color>
+    <color name="transparent">#00000000</color>
+
+    <drawable name="color_one">#110000</drawable>
+    <drawable name="color_two">#001111</drawable>
+    <drawable name="color_three">#001100</drawable>
+
+    <string name="vision"><b>Our Vision:</b> Every African has access to excellent community
+     health provision.</string>
+    <string name="mission"><b>Our Mission:</b> Deliver an <b>integrated mobile learning and community health
+        services platform</b> to empower, train, and motivate Community Health Volunteers (CHVs), driven
+        by a cross-sector partnership of leading organizations dedicated to improving health on the
+        continent. To <b>drive lasting health productivity and economic improvements for all
+        communities</b> by increasing access to quality, timely and appropriate healthcare.</string>
+    <string name="disclaimer"><b>Disclaimer:</b> This is not the actual HELP application, but rather
+        it demonstrates how a learner would interact with HELP on a basic mobile phone.</string>
+    <string name="title_activity_partners">Partners</string>
+    <string name="partnersInfo">The HELP partnership is a cross-sector partnership of Amref Health
+        Africa, Safaricom, Mezzanine, M-Pesa Foundation, and Accenture Development Partnerships
+        bringing together the best in community health, mobility, technology, and the creation of
+        lasting changes in the African primary healthcare landscape by working together to deliver
+        a fully integrated mobile community health platform.</string>
+    <string name="title_activity_pedagody">Pedagogy</string>
+    <string name="pedagogyInfo1">       Help has defined a one-of-a-kind mobile learning approach, based on
+        learning best-practices.</string>
+    <string name="pedagogyInfo2">        Right pace, rhythm and tools for mLearning. </string>
+    <string name="pedagogyInfo3">        Two way communication and support for Long Lasting Professional Development.</string>
+    <string name="pedagogyInfo4">        The optimal HELP mLearning solution is a balanced act between Pedagogy, Content,
+        and Technology.</string>
+    <string name="title_activity_features">Features</string>
+    <string name="feature1">The platform provides a number of powerful features including:</string>
+    <string name="feature2"><b>Structured Learning</b>- the “mPedagogy” applies advanced learning principles
+        and approaches to basic mobile channels in a combination of “patterns” that aim to simulate
+        the learning experience and outcomes from traditional in-person training methods, such as
+        through role plays, job aids, quizzes and games, etc.</string>
+    <string name="feature3"><b>Collaboration</b> - allowing community units to share knowledge, provide
+        one another with support and communicate directly with supervisors.</string>
+    <string name="feature4"><b>Monitoring</b> - weekly reports on CHV performance are sent directly to CHVs
+    and their supervisors, and progress statistics are available to the HELP team. CHVs who are
+    struggling can be contacted by the HELP team to provide encouragement and support.</string>
+    <string name="feature5"><b>Support</b> - CHVs also have access to a dedicated, toll free help desk that
+        can help them with any challenges.</string>
+    <string name="title_activity_news">News</string>
+    <string name="newsLink1"><a href="http://www.cio.co.ke/tv/mpesa-foundation-pushing-mobile-learning-mlearning-for-health-workers">MPesa foundation pushing mobile learning mlearning for health workers</a></string>
+    <string name="newsLink2"><a href="https://www.devex.com/news/people-technology-as-a-best-investment-83139">People + technology as a best investment</a></string>
+    <string name="newsLink3"><a href="http://www.capitalfm.co.ke/news/2014/03/mobile-phones-deliver-healthcare-in-mwingi/">Mobile phones deliver healthcare in Mwingi</a></string>
+    <string name="topicsavailable">To minimize app size, only Topic 1 is included in this demo</string>
+    <string name="copyright">Copyright © 2015 AMREF Health Africa and Accenture. All rights reserved. Not to be reproduced without permission</string>
+    <string name="title_activity_search_demo">SearchDemo</string>
+
+</resources>

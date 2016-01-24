@@ -1,0 +1,40 @@
+Txt,Type,Subtype,Answer,File
+"1/3 Hello dear learner and welcome to the Community Health Volunteer training. In this topic, you will learn about  Ebola Virus Disease",M,,,
+2/3 During the week you will receive SMS messages and listen to recorded phone stories and lectures all related to Ebola Virus Disease,M,,,
+3/3 Please follow the instructions to go through all the activities. You can contact your CHEW for technical help on using the mobile phone.,M,,,
+"To start the first activity, please dial 0800 722 689.",M,,,
+Audio Clip 1,Audio,Listen,,ste301s1a2f1.mp3
+"Learning objective: At the end of the topic, you will be able to describe Ebola, its causes, symptoms and  preventive measures.",M,,,
+1/2 Thank you dear learner for completing the introductory session of the topic on Ebola. ,M,,,
+2/2 You will now receive an SMS with instructions on how to proceed to the next subtopic,M,,,
+"1/3 Hello dear learner and welcome to this sub- topic. In this sub-topic, you will learn about Ebola. ",M,,,
+"2/3 During the week you will receive SMSes & listen to recorded phone stories & lectures, all related to Ebola.",M,,,
+3/3 Please follow the instructions to go through all the activities. You can contact your CHEW for technical help on using the mobile phone.,M,,,
+"To start the first activity, please dial 0800 722 689.",M,,,
+Audio Clip 2,Audio,Listen,,ste302s1a2f2.mp3
+"Dear learner, you have just listened an interview on how Ebola is spread. How is Ebola Virus Disease (EVD) spread from one person to another?",Q,Response,,
+To continue please dial 0800 722 689.,M,,,
+Audio with the answer on how Ebola is spread,Audio,Listen,,ste302s2a2f1.mp3
+Now that we have learned the ways that Ebola is spread������.Learn the Symptons. You will now receive SMS questions,Audio,Listen,,ste302s2a2f2.mp3
+You will now receive quiz questions in SMS to test your learning so far. ,M,,,
+"A. Ebola Virus Disease is caused by 
+1. Bacteria
+2. Virus
+3. Insects
+",Q,MC,2,
+"B.  The following are symptoms of Ebola
+1. Sudden onset of fever, headaches, body weakness
+2. vomiting, diarrhoea
+3. Both 1 and 2
+",Q,MC,3,
+"C. The following are ways of spreading Ebola
+1. Singing
+2. Eating 
+3. Coming into direct contact with infected body fluids
+",Q,MC,3,
+"D. Ebola can be prevented by
+1. Avoiding direct contact with infected body fluids and wild animals
+2. Cleansing the dead
+3. Both
+",Q,MC,1,
+Thank you for completing this topic. ,M,,,

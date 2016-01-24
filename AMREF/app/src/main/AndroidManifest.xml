@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="accenture.amref"
+    android:versionCode="1"
+    android:versionName="1.2" >
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.write_external_storage" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+       <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        android:largeHeap="true"
+
+        <activity
+            android:name=".HelpDemoStart"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Topic"
+            android:label="@string/title_activity_topic"
+            android:parentActivityName=".HelpDemoStart" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="accenture.amref.HelpDemoStart" />
+        </activity>
+        <activity
+            android:name=".Demo"
+            android:label="@string/title_activity_demo"
+            android:parentActivityName=".Topic" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="accenture.amref.Topic"/>
+            <meta-data
+                android:name="com.google.android.apps.drive.APP_ID" android:value="id=1234567890" />
+            <intent-filter>
+                <action android:name="com.google.android.apps.drive.DRIVE_OPEN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Quiz"
+            android:label="@string/title_activity_quiz"
+            android:parentActivityName=".Demo" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="accenture.amref.Demo" />
+        </activity>
+        <activity
+            android:name=".AboutHelp"
+            android:label="@string/title_activity_about_help"
+            android:parentActivityName=".HelpDemoStart" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="accenture.amref.HelpDemoStart" />
+        </activity>
+        <activity
+            android:name=".Partners"
+            android:label="@string/title_activity_partners"
+            android:parentActivityName=".AboutHelp" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="accenture.amref.AboutHelp" />
+        </activity>
+        <activity
+            android:name=".Pedagogy"
+            android:label="@string/title_activity_pedagody"
+            android:parentActivityName=".AboutHelp" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="accenture.amref.AboutHelp" />
+        </activity>
+        <activity
+            android:name=".Features"
+            android:label="@string/title_activity_features"
+            android:parentActivityName=".HelpDemoStart" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="accenture.amref.HelpDemoStart" />
+        </activity>
+        <activity
+            android:name=".News"
+            android:label="@string/title_activity_news"
+            android:parentActivityName=".AboutHelp" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="accenture.amref.AboutHelp" />
+        </activity>
+        <activity
+            android:name=".SearchDemo"
+            android:label="@string/title_activity_search_demo"
+            android:parentActivityName=".Topic" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="accenture.amref.Topic" />
+        </activity>
+    </application>
+
+</manifest>

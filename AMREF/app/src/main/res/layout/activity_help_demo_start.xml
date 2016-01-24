@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".HelpDemoStart"
+    android:background="@color/white">
+    <LinearLayout
+        android:id="@+id/logos"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:id="@+id/mezzanine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/mezzaninelogo"
+            android:layout_weight=".25"
+            android:scaleType="fitXY"
+             />
+        <ImageView
+            android:id="@+id/acnlogo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/accenturelogo"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/mezzanine"
+            android:layout_weight=".25"
+            android:scaleType="fitXY"/>
+        <ImageView
+            android:id="@+id/mpesa"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/acnlogo"
+            android:src="@drawable/mpesalogo"
+            android:layout_weight=".25"
+            android:scaleType="fitXY"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/safaricomlogo"
+            android:layout_weight=".25"
+            android:scaleType="fitXY"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/center"
+        android:layout_below="@+id/logos"
+        android:layout_above="@+id/disclaimer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/menupic"
+        >
+        <Button
+            android:id = "@+id/buttonDemo"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/buttonAbout"
+            android:text="@string/help_demo"
+            android:onClick="onClick"
+            android:backgroundTint="@color/button_material_light"
+
+            />
+        <Button
+            android:id = "@+id/buttonAbout"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="@string/about_help"
+            android:onClick="onClick"
+            android:layout_above="@+id/buttonFeat"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/button_material_light"
+            />
+        <Button
+            android:id = "@+id/buttonFeat"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/help_feat"
+            android:onClick="onClick"
+            android:backgroundTint="@color/button_material_light"
+            />
+
+        </RelativeLayout>
+    <TextView
+        android:id="@+id/disclaimer"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:textSize="10dp"
+        android:layout_above="@+id/copyright"
+        android:text="@string/disclaimer"
+        />
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textSize="8dp"
+        android:textColor="@color/black"
+        android:layout_alignParentBottom="true"
+        android:text="@string/copyright"
+        />
+
+
+</RelativeLayout>
