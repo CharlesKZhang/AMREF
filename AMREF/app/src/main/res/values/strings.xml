@@ -91,7 +91,7 @@
     <string name="newsLink1"><a href="http://www.cio.co.ke/tv/mpesa-foundation-pushing-mobile-learning-mlearning-for-health-workers">MPesa foundation pushing mobile learning mlearning for health workers</a></string>
     <string name="newsLink2"><a href="https://www.devex.com/news/people-technology-as-a-best-investment-83139">People + technology as a best investment</a></string>
     <string name="newsLink3"><a href="http://www.capitalfm.co.ke/news/2014/03/mobile-phones-deliver-healthcare-in-mwingi/">Mobile phones deliver healthcare in Mwingi</a></string>
-    <string name="topicsavailable">To minimize app size, only Topic 1 is included in this demo</string>
+    <string name="topicsavailable">To minimize app size, only Topic 1 and 2 are included in this demo</string>
     <string name="copyright">Copyright © 2015 AMREF Health Africa and Accenture. All rights reserved. Not to be reproduced without permission</string>
     <string name="title_activity_search_demo">SearchDemo</string>
 
